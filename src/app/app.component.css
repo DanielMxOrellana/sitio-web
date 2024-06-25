@@ -1,73 +1,88 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.slide-16-9-1,
+.slide-16-9-1 * {
+    box-sizing: border-box;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+.slide-16-9-1 {
+    background: #b91c1c;
+    height: 1192px;
+    position: relative;
+    overflow: hidden;
 }
 
-header {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
+.rectangle-1 {
+    background: #d9d9d9;
+    width: 594px;
+    height: 306px;
+    position: absolute;
+    left: 227px;
+    top: 680px;
 }
 
-.logo img {
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
+.rectangle-8 {
+    background: #d9d9d9;
+    width: 594px;
+    height: 306px;
+    position: absolute;
+    left: 1141px;
+    top: 680px;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 10px 0 0;
+.rectangle-9 {
+    background: #d9d9d9;
+    border-radius: 28px;
+    width: 1190px;
+    height: 182px;
+    position: absolute;
+    left: 389px;
+    top: 432px;
 }
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
-    margin: 0;
+.ellipse-1 {
+    background: #d9d9d9;
+    border-radius: 50%;
+    width: 285px;
+    height: 287px;
+    position: absolute;
+    left: 357px;
+    top: 66px;
 }
 
-main {
-    padding: 20px;
+.image-1 {
+    border-radius: 1000px;
+    border-style: solid;
+    border-color: #f00a0a;
+    border-width: 1px;
+    width: 285px;
+    height: 287px;
+    position: absolute;
+    left: 357px;
+    top: 66px;
+    object-fit: cover;
 }
 
-.profile {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.daniel-orellana {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'IslandMoments-Regular', sans-serif;
+    font-size: 175px;
+    font-weight: 400;
+    position: absolute;
+    left: 734px;
+    top: 104px;
+    width: 966px;
+    height: 249px;
 }
 
-.profile-item {
-    width: 300px;
-}
-
-.profile-item img {
-    width: 100%;
-    height: auto;
-}
-
-.profile-item p {
-    font-size: 1em;
-    margin: 10px 0 0;
-}
-
-footer {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-top: 1px solid #ddd;
-}
-
-footer p {
-    margin: 5px 0;
-}
-
-footer a {
-    color: #000;
-    text-decoration: none;
+.estudiante-de-la-carrera-de-desarrllo-de-software {
+    color: #000000;
+    text-align: left;
+    font-family: 'InknutAntiqua-Regular', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    left: 400px;
+    top: 448px;
+    width: 1147px;
+    height: 151px;
 }
